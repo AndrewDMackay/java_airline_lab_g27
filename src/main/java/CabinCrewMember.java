@@ -1,14 +1,13 @@
 
 public abstract class CabinCrewMember {
 
-    private int rank;
+    private String rank;
 
-    public CabinCrewMember(int rank){
-
+    public CabinCrewMember(String rank){
         this.rank = rank;
     }
 
-    public int getRank(){
+    public String getRank(){
         return rank;
     }
 }
