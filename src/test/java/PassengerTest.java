@@ -24,3 +24,13 @@ public class PassengerTest {
         assertEquals(1, passenger1.getNumberOfBags());
     }
 }
+
+//          Assumptions..
+
+//          Each passenger bag weighs the same..
+
+//          Planes reserve half of their total weight for passenger bags..
+
+//          The weight of bag per person is the weight reserved for passenger bags divided by the capacity..
+
+//          Passengers exist for a single flight only..
